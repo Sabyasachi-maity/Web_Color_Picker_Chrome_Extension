@@ -3,6 +3,8 @@
     "description": "A web color picker extension",
     "version": "0.1.0",
     "manifest_version": 3,
+    "auther": "Sabyasachi",
+
     "background": {
         "service_worker": "background.js"
     },
@@ -11,6 +13,8 @@
         "activeTab",
         "scripting"
     ],
+
+    "options_page": "sample.html",
     "action": {
         "default_popup": "popup.html"
     },
